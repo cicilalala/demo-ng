@@ -8,7 +8,6 @@ const routerConfig: Routes = [
   {path: '', redirectTo: 'firstpage', pathMatch: 'full'},
   {path: 'firstpage', component: FirstPageComponent},
   {path: 'dialog', component: DialogboxComponent, outlet: 'dialog'}, /*在dialog这个组件上显示DialogboxComponent这个组件*/
-  {path: '*', component: DialogboxComponent, outlet: 'dialog'},
 
 ];
 
