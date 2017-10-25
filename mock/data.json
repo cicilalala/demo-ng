@@ -1,0 +1,75 @@
+{
+  "stock": [
+    {
+      "id": 5,
+      "name": "第五只股票",
+      "price": 2.4,
+      "rating": 2,
+      "desc": "这是第5支股票",
+      "categories": [
+        "IT",
+        "金融",
+        "互联网"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "第五只股票",
+      "price": 2.4,
+      "rating": 2,
+      "desc": "这是第6支股票",
+      "categories": [
+        "金融",
+        "互联网"
+      ]
+    },
+    {
+      "name": "第一只股票",
+      "price": "4",
+      "desc": "3333",
+      "categories": [
+        "IT"
+      ],
+      "rating": 4,
+      "id": 6
+    },
+    {
+      "name": "测试我我我我我我",
+      "price": "2",
+      "desc": "我相信",
+      "categories": [
+        "互联网"
+      ],
+      "rating": 3,
+      "id": 7
+    },
+    {
+      "name": "点点滴滴2",
+      "price": "3",
+      "desc": "333",
+      "categories": [
+        "互联网",
+        "金融"
+      ],
+      "rating": 4,
+      "id": 8
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "name": "张三",
+      "password": "333333"
+    },
+    {
+      "id": 2,
+      "name": "张四",
+      "password": "444444"
+    },
+    {
+      "id": 3,
+      "name": "张五",
+      "password": "555555"
+    }
+  ]
+}

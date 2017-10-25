@@ -1,0 +1,10 @@
+<div class="pop" [@appear]="animateState">
+  <div class="inner-box">{{text}}</div>
+  <div class="btn-container">
+    <button (click)="close(true)" class="btn btn-md btn-success" >确定</button>
+    <button (click)="close(false)" class="btn btn-md">取消</button>
+  </div>
+  <div class="close glyphicon glyphicon-remove" (click)="close(false)">
+
+  </div>
+</div>
