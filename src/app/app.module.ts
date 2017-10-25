@@ -12,6 +12,7 @@ import {AppRoutingModule} from "./app-routing.module";
 import {HttpModule} from "@angular/http";
 import {SomelittercomponentsModule} from "./somelitter-componets/somelittercomponents.module";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import {LoginInComponent} from "./login/login-in/login-in.component";
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
   ],
   providers: [],
   bootstrap: [AppComponent]
+  // bootstrap: [LoginInComponent]
 })
 
 export class AppModule {

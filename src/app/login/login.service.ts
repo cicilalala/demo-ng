@@ -13,13 +13,21 @@ export class LoginService {
   }
 }
 
-export class User{
+export class User {
   constructor(public id: number,
               public name: string,
-              public price: number,
-              public rating: number,
-              public desc: string,
-              public categories: Array<string>) {
+              public password: string,
+              public password1: string,
+              public sex: string,
+             ) {
+
+  }
+}
+
+export class loginUser {
+  constructor(public id: number,
+              public name: string,
+              public password: string) {
 
   }
 }

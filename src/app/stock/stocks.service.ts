@@ -24,7 +24,7 @@ export class StocksService {
 
   addOrUpdata(stock): any {
     if (stock.id) {
-      // 删除
+      // 先删除
       this.http.delete(`${this.config.api}/stock/${stock.id}`).map(value => value.json())
         .subscribe(val => {
           if (val) {

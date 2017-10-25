@@ -14,7 +14,7 @@ import {LoginService} from "./login.service";
     LoginInComponent,
     LoginRegistComponent
   ],
-  providers: [LoginService]
+  providers: [LoginService],
 })
 export class LoginModule {
 }
