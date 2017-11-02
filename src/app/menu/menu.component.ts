@@ -20,6 +20,7 @@ export class MenuComponent implements OnInit {
     this.menus = [
       new Menu(1, '首页', 'firstpage'),
       new Menu(2, '股票管理', 'stock'),
+      new Menu(3, '组件学习', 'learncomponent'),
     ];
   }
 

@@ -18,6 +18,9 @@ export class ContentComponent implements OnInit {
         if (event.url.startsWith('/stock')) {
           event.url = '/stock';
         }
+        if (event.url.startsWith('/learncomponent')) {
+          event.url = '/learncomponent';
+        }
         switch (event.url) {
           case '/firstpage':
             this.pageTitle = '首页';
@@ -34,6 +37,10 @@ export class ContentComponent implements OnInit {
           case '/newstock':
             this.pageTitle = '股票详情';
             this.pageContent = '新股发行';
+            break;
+          case '/learncomponent':
+            this.pageTitle = '组件';
+            this.pageContent = '组件的定义以及组件间通信';
             break;
         }
       });
