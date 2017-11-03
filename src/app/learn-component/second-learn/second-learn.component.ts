@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Inject, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-second-learn',
@@ -6,10 +6,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./second-learn.component.sass']
 })
 export class SecondLearnComponent implements OnInit {
+  public urlbase;
+  public number = 3;
 
-  constructor() { }
+  constructor(@Inject('PIC_CONF') private picconf) {
+    this.urlbase = picconf.ur2s;
+  }
 
   ngOnInit() {
+  }
+
+  getNumber(num) {
+    this.number = num;
   }
 
 }

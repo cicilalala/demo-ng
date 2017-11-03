@@ -7,11 +7,14 @@ import {FirstLearnComponent} from './first-learn/first-learn.component';
 import {SecondLearnComponent} from './second-learn/second-learn.component';
 import {ThirdLearnComponent} from './third-learn/third-learn.component';
 import {ForthLearnComponent} from './forth-learn/forth-learn.component';
+import {SomelittercomponentsModule} from "../somelitter-componets/somelittercomponents.module";
+
 
 @NgModule({
   imports: [
     CommonModule,
-    LearnComponentRoutingModule
+    LearnComponentRoutingModule,
+    SomelittercomponentsModule
   ],
   declarations: [LearnComponentComponent, FirstLearnComponent, SecondLearnComponent, ThirdLearnComponent, ForthLearnComponent],
   providers: [{

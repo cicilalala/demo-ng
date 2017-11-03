@@ -1,5 +1,4 @@
 import {Component, EventEmitter, Input, OnChanges, OnInit, Output} from '@angular/core';
-import {Stock} from "../../stock/stocks.service";
 
 @Component({
   selector: 'app-stars',
@@ -12,7 +11,6 @@ export class StarsComponent implements OnInit, OnChanges {
   @Output() ratingChange: EventEmitter<Number> = new EventEmitter();
   stars: Array<boolean>;
   isDisabled: boolean;
-
 
   constructor() {
   }

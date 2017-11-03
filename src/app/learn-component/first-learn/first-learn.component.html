@@ -1,11 +1,12 @@
 <div class="row content outerbox">
   <h4>组件是什么？<small>下面是一个组件的基本形式：html+sass(可以是任意形式的样式表,scss,css等)+ts（兼容js）</small></h4>
+  <div> 注意：<span class="important">组件必须要用@Component这个装饰器修饰，不然它不再是一个angular组件</span></div>
   <img src="{{urlbase}}1.png" alt="组件的构成" >
-  <h4>我们看下ts文件的形式<small>一个组件至少应该包含selector，templateUrl(template),styleUrls(style)</small></h4>
+  <h4>我们看下ts文件的形式<small>一个组件至少应该包含selector，templateUrl(template),styleUrls(styles)</small></h4>
   <img src="{{urlbase}}2.png" alt="组件的ts文件" >
 
   <h4>如何快速的创建一个组件？<small>我们推荐使用指令快速创建组件g:ggenerate,c:component</small></h4>
   <div> 请牢记这条指令：<span class="important">ng g c 组件名称</span></div>
-  <div> 为了规范：<span class="important">组件命名请使用-分割符合</span></div>
+  <div> 为了规范：<span class="important">组件命名请使用‘-’分割符合</span></div>
 
 </div>
