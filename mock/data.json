@@ -32,14 +32,13 @@
       "id": 7
     },
     {
-      "name": "点点滴滴2",
-      "price": "3",
-      "desc": "333",
+      "name": "wwwwww",
+      "price": 0,
+      "desc": "wwwe",
       "categories": [
-        "互联网",
-        "金融"
+        "互联网"
       ],
-      "rating": 4,
+      "rating": 5,
       "id": 8
     }
   ],

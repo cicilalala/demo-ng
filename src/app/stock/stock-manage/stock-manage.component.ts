@@ -40,7 +40,7 @@ export class StockManageComponent implements OnInit {
 
 // 删除
   delete(id) {
-    this.pop.openPop('确定要删除吗？');
+    this.pop.openPop('确定要删除吗？'); // 调出pop组件
     this.currentId = id;
   }
 
