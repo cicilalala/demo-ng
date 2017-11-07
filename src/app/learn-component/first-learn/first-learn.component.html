@@ -8,5 +8,30 @@
   <h4>如何快速的创建一个组件？<small>我们推荐使用指令快速创建组件g:ggenerate,c:component</small></h4>
   <div> 请牢记这条指令：<span class="important">ng g c 组件名称</span></div>
   <div> 为了规范：<span class="important">组件命名请使用‘-’分割符合</span></div>
+     <app-progress-bar
+       [size]="200"
+       [value]="80"
+       [circleColorUper]="'green'"
+       [circleColorDown]="'#DDD'"
+       [circleArc]="20"
+       [text]="'重要程度'"
+       [textColor]="'black'"
+       [fontSize]="'20px'"
+       [fontWeight]="'300'"
+       [fontFamilay]="'Arial'"
+     ></app-progress-bar>
+    <app-progress-bar
+      [size]="200"
+      [value]="30"
+      [circleColorUper]="'yellow'"
+      [circleColorDown]="'#DDD'"
+      [circleArc]="20"
+      [text]="'重要程度'"
+      [textColor]="'black'"
+      [fontSize]="'20px'"
+      [fontWeight]="'300'"
+      [fontFamilay]="'Arial'"
+    ></app-progress-bar>
+
 
 </div>

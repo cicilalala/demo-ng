@@ -6,6 +6,7 @@ import {SearchComponent} from './search/search.component';
 import {StarsComponent} from './stars/stars.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { PopComponent } from './pop/pop.component';
+import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 
 
 
@@ -21,6 +22,7 @@ import { PopComponent } from './pop/pop.component';
     SearchComponent,
     StarsComponent,
     PopComponent,
+    ProgressBarComponent,
 
   ],
   exports: [// 记得要导出模板
@@ -28,6 +30,7 @@ import { PopComponent } from './pop/pop.component';
     SearchComponent,
     StarsComponent,
     PopComponent,
+    ProgressBarComponent,
   ]
 })
 export class SomelittercomponentsModule {
