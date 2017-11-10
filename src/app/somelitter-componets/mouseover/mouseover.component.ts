@@ -16,12 +16,13 @@ export class MouseoverComponent implements OnInit {
   ngOnInit() {
     const imgList = this.ele.nativeElement.children;
     const imgList$ = Observable.from(imgList); // 将数组转换成流
-    const ele$ = Observable.fromEvent(document, 'mousemove'); // mosemove事件
+    const ele$ = Observable.fromEvent(document, 'mousemove')
     const delayTime = 600;
-    ele$.subscribe(pos => {
-      console.log(pos);
-      // imgList.item.style.transform = 'translate3d(' + pos.x + 'px, ' + pos.y + 'px, 0)';
-    });
+    ele$.subscribe(v => console.log(v));
+    // ele$.subscribe(pos => {
+    //   console.log(pos);
+    //   // imgList.item.style.transform = 'translate3d(' + pos.x + 'px, ' + pos.y + 'px, 0)';
+    // });
   }
 
 }
