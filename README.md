@@ -40,3 +40,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 创建pipe:ng g p pipename
 .........
 
+##安装 concurrently 用来并行执行多项任务，修改package.json如下 
+ ##"server": "json-server --watch mock/data.json --port 3000",
+  ##"start": "concurrently \"ng server --port=4200\" \"npm run server\"",
+ 启动：npm start (同时启动服务和json-server)
